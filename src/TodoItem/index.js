@@ -1,5 +1,6 @@
 import React from "react";
 import './TodoItem.css';
+import { FaTrashAlt, FaCheckCircle,FaRegCircle } from "react-icons/fa";
 
 
 function TodoItem(props) {
@@ -10,11 +11,11 @@ function TodoItem(props) {
                 `Icon Icon-check ${props.completed && 'Icon-check--active'}`}
             onClick = {props.onComplete}
             >
-                C
+                < FaCheckCircle/>
             </span>
 
             <p
-             className = {`TodoItem-p ${props.completed && 'TodoItem-p--complete'}`
+            className = {`TodoItem-p ${props.completed && 'TodoItem-p--complete'}`
             }
             >
                 {props.text}
@@ -23,7 +24,7 @@ function TodoItem(props) {
             <span className = "Icon Icon-delete"
             onClick = {props.onDelete}
             >
-                X
+                <FaTrashAlt className="icon-cleam" />
             </span>
         </li>
     );

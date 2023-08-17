@@ -2,7 +2,10 @@ body {
   margin: 0;
   padding: 0;
   background: #F2F4F5;
-  color: #1E1E1F;
+  background-image: url('../public/fondo2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center center;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 

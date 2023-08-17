@@ -1,5 +1,6 @@
 .TodoItem {
     background-color: #FAFAFA;
+    border: 2px solid black;
     position: relative;
     display: flex;
     justify-content: center;
@@ -41,7 +42,6 @@
   
   .Icon-delete {
     position: absolute;
-    top: -24px;
     right: 0;
   }
   .Icon-delete:hover {
