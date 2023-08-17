@@ -1,6 +1,6 @@
 import React from "react";
 import './TodoItem.css';
-import { FaTrashAlt, FaCheckCircle,FaRegCircle } from "react-icons/fa";
+import { FaTrashAlt, FaCheckCircle } from "react-icons/fa";
 
 
 function TodoItem(props) {
